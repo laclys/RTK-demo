@@ -1,0 +1,26 @@
+.title {
+  font-size: 32px;
+  color: rgb(112, 76, 182);
+}
+
+.btn {
+  margin-top: 30px;
+  font-size: 32px;
+  color: rgb(112, 76, 182);
+  background-color: rgba(112, 76, 182, 0.1);
+  border: 2px solid transparent;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.link {
+  font-size: 16px;
+  color: rgb(112, 76, 182);
+}

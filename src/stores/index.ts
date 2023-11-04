@@ -2,10 +2,12 @@ import { configureStore } from '@reduxjs/toolkit'
 import type { ThunkAction, Action } from '@reduxjs/toolkit'
 
 import counterReducer from './counter/counterSlice'
+import dogReducer from './dog/dogSlice'
 
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
+    dog: dogReducer,
   },
 })
 

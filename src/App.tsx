@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+import logo from './logo.svg'
+import { Counter } from './features/counter/Counter'
+import { Dog } from './features/dog/Dog'
 
-import './App.css';
+import './App.css'
 
 function App() {
   return (
@@ -9,9 +10,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
+        <div className='gap' >- - - - - - -</div>
+        <Dog />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
